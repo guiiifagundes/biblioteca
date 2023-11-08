@@ -1,5 +1,58 @@
+/* Estilos para as abas (transformando em botões) */
+.nav-tabs {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-tabs li {
+  display: inline-block;
+  margin-right: 10px; /* Espaçamento entre os botões */
+}
+
+.nav-tabs a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff; /* Cor de fundo */
+  color: rgb(255, 255, 255); /* Cor do texto */
+  text-decoration: none;
+  border-radius: 5px; /* Cantos arredondados */
+}
+
+.nav-tabs a:hover {
+  background-color: #ffffff; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos para o conteúdo das abas */
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+
+/* Exemplo de estilo para um botão */
+.button {
+  background-color: #5c6164;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+/* Exemplo de estilo para um cabeçalho */
+h1 {
+  color: #55b352;
+}
+
+body {
+  background-color: #943a3a; /* Cor de fundo cinza claro */
+}
+
 .sidebar-nav {
   margin-top: 20px;
+  margin-left:20px;
   padding: 0;
-  list-style: none;
 }
